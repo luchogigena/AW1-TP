@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="contenedor-logo">
+            <img src="/Cremin/img/logo.png" alt="Logotipo">
+        </div>
+        <h1>Heladería CRemin</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sabores.html">Sabores</a></li>
+                <li><a href="calidad.html">Calidad</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registro.html">Registro</a></li>
+            </ul>
+        </nav>
+        <button class="cerrar-sesion">Cerrar Sesión</button>
+    </header>
+
+    <main>
+        <div class="registro-conteiner">
+            <div class="titulo-registro">
+                <h1>Registro</h1>
+            </div>
+
+            <form action="Procesar_Registro" method="post">
+
+
+                <div class="campo">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="txtNombre" name="nombre" required><br><br>
+                </div>
+
+
+                <div class="campo">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="txtApellido" name="apellido" required><br><br>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required><br><br>
+                </div>
+
+                <div class="campo">
+                    <label for="contraseña">contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña required"><br><br>
+                </div>
+
+                <div class="campo">
+                    <label for="fecha de nacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" name="fecha_nacimiento required"><br><br>
+                </div>
+
+
+                <button type="submit">Registrarse</button><br>
+
+
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>Dirección: Av. Principal #1234, Ciudad, Cordoba</p>
+            <p>Teléfono: +123456789</p>
+            <p>Email: info@heladeria-Cremin.com</p>
+        </div>
+        <div class="redes-sociales">
+            <h3>Redes Sociales</h3>
+            <img src="/Cremin/img/facebook.webp" alt="Facebook">
+            <img src="/Cremin/img/twitte.webp" alt="Twitter">
+            <img src="/Cremin/img/instagram.webp" alt="Instagram">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>&copy; 2024 Heladería CRemin. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
