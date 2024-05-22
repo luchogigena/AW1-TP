@@ -4,8 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
         { url: 'index.html', titulo: 'Inicio' },
         { url: 'sabores.html', titulo: 'Sabores' },
         { url: 'calidad.html', titulo: 'Calidad' },
-        { url: 'perfil.html', titulo: 'Perfil' },
-        { url: 'configuracion.html', titulo: 'Configuración' }
+        { url: 'login.html', titulo: 'Login' },
+        { url: 'registro.html', titulo: 'Registro' },
+        
     ];
 
   
